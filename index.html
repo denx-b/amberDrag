@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>amberDrag</title>
+    <script src="js/amberDrag.js"></script>
+</head>
+<body>
+
+<div style="padding: 150px; position: relative">
+    <img
+        src="https://image.flaticon.com/icons/svg/174/174854.svg"
+        style="cursor: pointer"
+        width="40"
+        height="40"
+        id="amberNode">
+</div>
+
+<script>
+    amberDrag.init(document.getElementById("amberNode"), {
+        zIndex: 2100
+    });
+</script>
+
+</body>
+</html>
